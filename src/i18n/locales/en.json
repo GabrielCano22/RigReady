@@ -1,0 +1,158 @@
+{
+  "common": {
+    "header": {
+      "home": "Home",
+      "evaluator": "Evaluator",
+      "about": "About",
+      "cta": "Check My PC",
+      "language": "Language",
+      "languageSpanish": "Spanish",
+      "languageEnglish": "English"
+    },
+    "hero": {
+      "badge": "New GPU database updated!",
+      "titleLine1": "Is Your Rig",
+      "titleWordOutline": "ready",
+      "titleWordMid": "to",
+      "titleWordCyan": "play?",
+      "subtitle": "Enter your PC specs, select a game, and instantly find out if you can run it at Ultra, High, or Potato graphics.",
+      "cta": "Check My PC",
+      "ctaPrimary": "Check My PC",
+      "ctaSecondary": "Learn more"
+    },
+    "logos": {
+      "title": "Hardware data trusted by the community"
+    },
+    "footer": {
+      "tagline": "RigReady tells you in seconds whether your computer can run the game you want — and at what quality level.",
+      "product": "Product",
+      "resources": "Resources",
+      "links": {
+        "evaluator": "Evaluator",
+        "supportedGames": "Supported games",
+        "hardwareDb": "Hardware database",
+        "about": "About RigReady",
+        "privacy": "Privacy",
+        "terms": "Terms",
+        "contact": "Contact"
+      },
+      "rightsReserved": "All rights reserved.",
+      "social": {
+        "github": "GitHub",
+        "twitter": "Twitter / X",
+        "discord": "Discord"
+      }
+    },
+    "evaluator": {
+      "title": "Rig",
+      "titleHighlight": "Evaluator",
+      "description": "Plug in your specs, pick a game, and we'll tell you exactly what settings your PC can handle.",
+      "formTitle": "Your rig",
+      "formDescription": "All fields are required.",
+      "formFactor": "Form factor",
+      "desktop": "Desktop",
+      "laptop": "Laptop",
+      "laptopNote": "Laptop GPUs are evaluated at 75% of their desktop equivalents.",
+      "cpu": "CPU",
+      "gpu": "GPU",
+      "ram": "RAM",
+      "game": "Game",
+      "selectCpu": "Select a CPU",
+      "selectGpu": "Select a GPU",
+      "loadingCpus": "Loading CPUs...",
+      "loadingGpus": "Loading GPUs...",
+      "searchCpus": "Search CPUs...",
+      "searchGpus": "Search GPUs...",
+      "noResults": "No results found.",
+      "catalogError": "Couldn't load catalog",
+      "evaluationError": "Evaluation failed",
+      "analyze": "Analyze",
+      "analyzing": "Analyzing...",
+      "reset": "Reset",
+      "emptyPlaceholder": "Fill in your specs on the left, then hit {{action}} to see your verdict here.",
+      "gameSource": {
+        "searchPlaceholder": "Search for a game on Steam...",
+        "searching": "Searching...",
+        "noResults": "No results.",
+        "selected": "Selected:",
+        "unavailable": "Game search is currently unavailable.",
+        "estimatedBadge": "Estimation based on genre and year"
+      }
+    },
+    "verdict": {
+      "title": "Verdict",
+      "labels": {
+        "incompatible": "Not compatible",
+        "low": "Runs on Low (30 FPS)",
+        "recommended": "Runs on Recommended (60 FPS)",
+        "ultra": "Runs on Ultra (144+ FPS)"
+      },
+      "bottleneckTitle": "Bottleneck detected",
+      "bottleneckDefault": "One component is significantly weaker than the rest and is slowing down your rig.",
+      "bottleneckCpu": "Your CPU might bottleneck your GPU in this game.",
+      "bottleneckGpu": "Your GPU might bottleneck your CPU in this game.",
+      "platformMismatchTitle": "Platform mismatch",
+      "platformMismatchMessage": "Warning: you selected a desktop GPU on a laptop — the estimate may be inaccurate.",
+      "estimatedBadge": "Estimation based on genre and year",
+      "table": {
+        "spec": "Spec",
+        "yourRig": "Your Spec",
+        "recommended": "Game Requirement",
+        "result": "Result",
+        "pass": "Meets",
+        "fail": "Does not meet",
+        "scoreMin": "Score ≥ {{value}}",
+        "ramValue": "{{value}} GB"
+      },
+      "meters": {
+        "userScore": "Your Rig Score",
+        "gameDemand": "Game Demand"
+      }
+    },
+    "gpuGroups": {
+      "dedicated": "Dedicated",
+      "integrated": "Integrated",
+      "igpuBadge": "iGPU"
+    },
+    "about": {
+      "tag": "About RigReady",
+      "heroLine1": "Built by gamers,",
+      "heroMid": "for",
+      "heroCyan": "gamers.",
+      "intro": "RigReady was born from a simple question: can it run it? A free platform that analyzes your hardware and tells you exactly what you can play — and at what quality.",
+      "howItWorks": "How it works",
+      "step1": {
+        "title": "Enter your specs",
+        "body": "CPU, GPU, RAM — desktop or laptop. No sign-up, no account."
+      },
+      "step2": {
+        "title": "Pick a game",
+        "body": "Search any title from Steam's full catalog, right from the app."
+      },
+      "step3": {
+        "title": "Get your verdict",
+        "body": "Ultra, High, or Potato. With bottleneck analysis and comparative scores."
+      },
+      "valuesTitle": "Our values",
+      "values": {
+        "community": {
+          "head": "Community first",
+          "body": "Hardware data is contributed and validated by the gamer community."
+        },
+        "noBs": {
+          "head": "No BS",
+          "body": "No forced sign-up, no paywalls. The evaluator is free forever."
+        },
+        "realData": {
+          "head": "Real data",
+          "body": "We plug into Steam's API and PassMark's verified benchmark databases."
+        },
+        "spanishFirst": {
+          "head": "Spanish-first",
+          "body": "Designed with Latin American and Spanish gamers in mind."
+        }
+      },
+      "ctaLead": "Ready to see if your rig makes the cut?"
+    }
+  }
+}

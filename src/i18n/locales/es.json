@@ -1,0 +1,158 @@
+{
+  "common": {
+    "header": {
+      "home": "Inicio",
+      "evaluator": "Evaluador",
+      "about": "Acerca",
+      "cta": "Evaluar mi PC",
+      "language": "Idioma",
+      "languageSpanish": "Español",
+      "languageEnglish": "Inglés"
+    },
+    "hero": {
+      "badge": "¡Nueva base de GPUs actualizada!",
+      "titleLine1": "¿Tu Rig está",
+      "titleWordOutline": "listo",
+      "titleWordMid": "para",
+      "titleWordCyan": "jugar?",
+      "subtitle": "Ingresa las especificaciones de tu PC, elige un juego y descubre si puedes correrlo en Ultra, Alto o Papa.",
+      "cta": "Evaluar mi PC",
+      "ctaPrimary": "Evaluar mi PC",
+      "ctaSecondary": "Saber más"
+    },
+    "logos": {
+      "title": "Datos de hardware confiables por la comunidad"
+    },
+    "footer": {
+      "tagline": "RigReady te ayuda a saber, en segundos, si tu equipo corre el juego que quieres y en qué nivel de calidad.",
+      "product": "Producto",
+      "resources": "Recursos",
+      "links": {
+        "evaluator": "Evaluador",
+        "supportedGames": "Juegos soportados",
+        "hardwareDb": "Base de hardware",
+        "about": "Acerca de RigReady",
+        "privacy": "Privacidad",
+        "terms": "Términos",
+        "contact": "Contacto"
+      },
+      "rightsReserved": "Todos los derechos reservados.",
+      "social": {
+        "github": "GitHub",
+        "twitter": "Twitter / X",
+        "discord": "Discord"
+      }
+    },
+    "evaluator": {
+      "title": "Evaluador",
+      "titleHighlight": "de Componentes",
+      "description": "Ingresa tus especificaciones, elige un juego y te diremos exactamente qué configuración puede manejar tu PC.",
+      "formTitle": "Tu equipo",
+      "formDescription": "Todos los campos son obligatorios.",
+      "formFactor": "Tipo de equipo",
+      "desktop": "Escritorio",
+      "laptop": "Portátil",
+      "laptopNote": "Las GPUs de portátil se evalúan al 75% del rendimiento de su equivalente de escritorio.",
+      "cpu": "CPU",
+      "gpu": "GPU",
+      "ram": "RAM",
+      "game": "Juego",
+      "selectCpu": "Selecciona una CPU",
+      "selectGpu": "Selecciona una GPU",
+      "loadingCpus": "Cargando CPUs...",
+      "loadingGpus": "Cargando GPUs...",
+      "searchCpus": "Buscar CPUs...",
+      "searchGpus": "Buscar GPUs...",
+      "noResults": "Sin resultados.",
+      "catalogError": "No se pudo cargar el catálogo",
+      "evaluationError": "La evaluación falló",
+      "analyze": "Analizar",
+      "analyzing": "Analizando...",
+      "reset": "Reiniciar",
+      "emptyPlaceholder": "Completa tus especificaciones a la izquierda y presiona {{action}} para ver tu veredicto aquí.",
+      "gameSource": {
+        "searchPlaceholder": "Busca un juego en Steam...",
+        "searching": "Buscando...",
+        "noResults": "Sin resultados.",
+        "selected": "Seleccionado:",
+        "unavailable": "Búsqueda no disponible en este momento.",
+        "estimatedBadge": "Estimación basada en género y año"
+      }
+    },
+    "verdict": {
+      "title": "Veredicto",
+      "labels": {
+        "incompatible": "No compatible",
+        "low": "Corre en calidad baja (30 FPS)",
+        "recommended": "Corre en recomendada (60 FPS)",
+        "ultra": "Corre en Ultra (144+ FPS)"
+      },
+      "bottleneckTitle": "Cuello de botella detectado",
+      "bottleneckDefault": "Un componente es significativamente más débil que el resto y está frenando tu equipo.",
+      "bottleneckCpu": "Tu CPU podría ser un cuello de botella para tu GPU en este juego.",
+      "bottleneckGpu": "Tu GPU podría ser un cuello de botella para tu CPU en este juego.",
+      "platformMismatchTitle": "Incompatibilidad de plataforma",
+      "platformMismatchMessage": "Advertencia: elegiste una GPU de escritorio en un equipo portátil — la estimación puede ser inexacta.",
+      "estimatedBadge": "Estimación basada en género y año",
+      "table": {
+        "spec": "Especificación",
+        "yourRig": "Tu especificación",
+        "recommended": "Requisito del juego",
+        "result": "Resultado",
+        "pass": "Cumple",
+        "fail": "No cumple",
+        "scoreMin": "Puntaje ≥ {{value}}",
+        "ramValue": "{{value}} GB"
+      },
+      "meters": {
+        "userScore": "Puntaje de tu equipo",
+        "gameDemand": "Demanda del juego"
+      }
+    },
+    "gpuGroups": {
+      "dedicated": "Dedicada",
+      "integrated": "Integrada",
+      "igpuBadge": "iGPU"
+    },
+    "about": {
+      "tag": "Acerca de RigReady",
+      "heroLine1": "Hecha por gamers,",
+      "heroMid": "para",
+      "heroCyan": "gamers.",
+      "intro": "RigReady nació de una pregunta simple: ¿puede correrlo? Una plataforma gratuita que analiza tu hardware y te dice exactamente qué puedes jugar y a qué calidad.",
+      "howItWorks": "Cómo funciona",
+      "step1": {
+        "title": "Ingresa tus specs",
+        "body": "CPU, GPU, RAM — escritorio o portátil. Sin registro, sin cuenta."
+      },
+      "step2": {
+        "title": "Elige un juego",
+        "body": "Busca cualquier título del catálogo de Steam directamente desde la app."
+      },
+      "step3": {
+        "title": "Obtén tu veredicto",
+        "body": "Ultra, Alto o Papa. Con análisis de cuello de botella y puntaje comparativo."
+      },
+      "valuesTitle": "Nuestros valores",
+      "values": {
+        "community": {
+          "head": "Comunidad primero",
+          "body": "Los datos de hardware son aportados y validados por la comunidad gamer."
+        },
+        "noBs": {
+          "head": "Sin BS",
+          "body": "Sin registros forzados, sin paywalls. El evaluador es gratis para siempre."
+        },
+        "realData": {
+          "head": "Datos reales",
+          "body": "Conectamos con la API de Steam y bases de benchmarks verificados de PassMark."
+        },
+        "spanishFirst": {
+          "head": "Español primero",
+          "body": "Diseñada pensando en la comunidad latinoamericana y española."
+        }
+      },
+      "ctaLead": "¿Listo para ver si tu rig da la talla?"
+    }
+  }
+}
