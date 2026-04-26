@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 28 28'><rect x='0.5' y='0.5' width='27' height='27' rx='2' fill='%23000000' stroke='%2300ffff' stroke-width='1'/><text x='50%25' y='51%25' dominant-baseline='middle' text-anchor='middle' font-family='monospace' font-size='11' font-weight='bold' fill='%2300ffff'>RR</text></svg>" />    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+      Content Security Policy. Chosen for a static SPA that talks to:
+        - its own backend (dev: http://localhost:4000, prod: same-origin or
+          a dedicated api subdomain — tune connect-src at deploy time)
+        - Steam CDN for game cover images
+        - cdn.simpleicons.org for brand logos
+        - Google Fonts for the Inter / JetBrains Mono stack
+      'unsafe-inline' on style-src is required because Tailwind v4 + Radix
+      inject runtime inline styles; script-src stays strict ('self') so XSS
+      payloads cannot execute even if a string leaks through React.
+      For production, replace connect-src localhost with your API origin
+      (or drop it entirely if the API is served same-origin) and consider
+      delivering this CSP as a response header from the hosting edge so it
+      can be rotated without a redeploy.
+    -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+        script-src 'self';
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+        font-src 'self' https://fonts.gstatic.com;
+        img-src 'self' data: blob:
+          https://*.steamstatic.com
+          https://cdn.akamai.steamstatic.com
+          https://shared.akamai.steamstatic.com
+          https://shared.cloudflare.steamstatic.com
+          https://cdn.cloudflare.steamstatic.com
+          https://cdn.simpleicons.org;
+        connect-src 'self' http://localhost:4000 http://127.0.0.1:4000;
+        frame-ancestors 'none';
+        base-uri 'self';
+        form-action 'self';
+        object-src 'none';
+      "
+    />
+    <meta name="referrer" content="no-referrer" />
+    <title>RigReady</title>
+  </head>
+  <body class="bg-background text-foreground antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
